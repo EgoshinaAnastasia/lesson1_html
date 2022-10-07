@@ -4,10 +4,59 @@ body {
 h1 {
     border: 5px solid rgb(203, 21, 119);
     background: aqua;
+    font-size: 4.5rem ;
+    color: darkgreen;
+    text-align: center;
+    padding: 50px;
+    margin-left: 50 px;
 }
 img {
     width: 250px;
+    transition: 0.5s;
 }
-div {
+img:hover {
+    transform: scale(1.1, 1.1);
+}
+/*div {
     border: 5px solid green;
+}*/
+
+a {
+    padding: 10px;
+    background: greenyellow;
+    border-radius: 50px;
+    text-decoration: #097262;
+}
+a:hover{
+    background-color: #097262;
+}
+.large {
+    font-size: 20px;
+}
+.blue {
+    background: #097262;
+    box-shadow: 2px 1px 50px lightseagreen;
+
+}
+.rounded {
+    border-radius: 30px;
+}
+.block {
+    width: 30%;
+    border-radius: 35px;
+
+
+}
+.blok img {
+    width: 50%;
+}
+.green {
+    background: green;
+}
+.pink {
+    background: pink;
+
+}
+.orange {
+    background: orange;
 }
