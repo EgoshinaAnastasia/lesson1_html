@@ -17,12 +17,19 @@ img {
 img:hover {
     transform: scale(1.1, 1.1);
 }
-/*div {
+div {
     border: 5px solid green;
-}*/
+}
 
-a {
+/*p { 
+    background: linear-gradient(184deg, #090979, #00d4ff);
+    box-shadow: 5px 3px 25hx greenyellow;
+    color: #ffffff;
+    border-radius: 25px;
     padding: 10px;
+}*/
+a {
+    padding: 14px 32px;
     background: greenyellow;
     border-radius: 50px;
     text-decoration: #097262;
